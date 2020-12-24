@@ -23,7 +23,7 @@
 
 @keyframes this-is-the-way2{
   100%   {color: rgb(255, 255, 255);}
-  100%   {background-image: url(/assets/img/info.jpeg);} 
+  100%   {background-image: url(../images/info.jpeg);} 
 }
 
 .image:hover{
