@@ -26,7 +26,6 @@
   100%   {background-image: url(/assets/img/info.jpeg);} 
 }
 
-
 .image:hover{
     content: hello;
     transform: scale(1.2);
