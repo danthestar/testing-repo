@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.image{
+    color: black;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-left: 100px;
+
+    animation-name: this-is-the-way2;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    color: rgba(0,0,0,0);
+}
+
+@keyframes this-is-the-way2{
+  100%   {color: rgb(255, 0, 0);}
+  100%   {background-image: url(/assets/img/info.jpeg);} 
+}
+
+
+.image:hover{
+    content: hello;
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.image:hover::after{
+    opacity: 0.5s;
+}
