@@ -6,8 +6,8 @@
 
 
 .image{
-    color: black;
     text-align: center;
+    text-transform: bold;
     height: 500px;
     width: 500px;
     background-repeat: no-repeat;
@@ -22,8 +22,8 @@
 }
 
 @keyframes this-is-the-way2{
-  100%   {color: rgb(255, 0, 0);}
-  100%   {background-image: url("https://pyxis.nymag.com/v1/imgs/aeb/1ef/8bd42b3bae212cde4db9cc0a4e817b47cb-mandalorian.rsquare.w700.jpggit push");} 
+  100%   {color: rgb(255, 255, 255);}
+  100%   {background-image: url(/assets/img/info.jpeg);} 
 }
 
 
