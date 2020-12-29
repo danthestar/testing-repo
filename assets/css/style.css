@@ -1,13 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-
-/*----------------------------------------ignor for a moment :D --------------------
-/
 *{
     margin: 0;
     padding: 0;
     border: 0;
 }
+
+body{
+    font-family: Lato, sans-serif;
+    color: lawngreen;
+    
+}
+
+#menu{
+    font-size: 520%;
+    list-style-type: none;  
+}
+
+#menu li{
+    float: right;
+    margin-right: 25px; 
+    margin-top: 25px;  
+}
+
+#menu a{
+    font-family: Lato;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: 1s; 
+}
+
+#menu a:hover{
+    color: rgb(255, 145, 0);
+}
+
+.active{
+    color: rgb(255, 0, 0);
+}
+/*----------------------------------------ignor for a moment :D --------------------
 
 
 .image{
@@ -40,7 +71,7 @@
 /*----------------------------------------ignor for a moment :D ------------------------------------*/
 
 
-/*--------------------------------          animation          --------------------------------*/
+/*--------------------------------          animation          --------------------------------/
 #menu li #hh{
     animation-name: hh;
     animation-duration: 2s;
@@ -78,31 +109,3 @@
 }
 /*--------------------------------          animation          --------------------------------*/
 
-
-
-#menu{
-    position: relative;
-    font-size: 520%;
-    list-style-type: none;   
-}
-
-#menu li{
-    float: right;
-    margin-right: 25px; 
-    margin-top: 25px;  
-}
-
-#menu li a{
-    text-decoration: none;
-    font-family: Lato;
-    letter-spacing: 3px;
-    font-weight: 600;     
-}
-
-#menu li a:hover{
-    color: rgb(255, 145, 0);
-}
-
-.active{
-    color: rgb(255, 0, 0);
-}
